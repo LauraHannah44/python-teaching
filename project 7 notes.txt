@@ -1,0 +1,16 @@
+state
+position
+dimensions
+
+tile is white/black
+tile is here
+tile is size
+
+board is subdivided
+board is size
+
+absolute board size
+tile dimensions var initially
+
+visible wrapping
+random ruleset

@@ -1,0 +1,81 @@
+a list is an ordered series of items
+a tuple is a fast list which can't be subedited
+for lists and tuples, index = position in order
+
+a dictionary is an unordered list with keys/names
+for dict, index = key
+
+*args = arguments
+**kwargs = key word arguments
+
+
+object
+define qualities
+look at the object
+read paragraph about object
+
+
+
+a static class
+multiple functions in a class
+class.function()
+(call function through class)
+classes can be used to sort functions into groups which can be called
+
+they can also be used for OOP
+object oriented programming
+
+class defines a type of thing
+if class is called game_item
+then the type of any obj from that class would be <type:game_item>
+
+you use = to assign a piece of data with-
+a certain type to a variable
+
+variable = function(stuff)
+variable = return of function
+
+in OOP
+
+variable = class(stuff)
+variable = instance of class
+instance is an object with <type:class>
+
+class game_item:
+    (schematic based on functionality of game_item would go here)
+
+the class handles the general functionality and the instance gives values based on general properties from functions within the class
+
+
+functions inside a class are called class' methods.
+(stuff you could do to an instance of the class)
+
+these functions are special and don't explicitly need to be called
+
+1) init (initiate)(create instance of class)(defines a load of details about that instance)
+variable = game_item(stuff) is the same as variable = game_item.__init__(stuff)
+
+2) get_attr (get attributes)(get requested specific info about an existing (init'd) instance of class)
+variable["string"] is the same as variable.__get_attr__("string")
+objects and dictionaries share this feature
+
+3) set_attr (set attributes)(set defined new info about __existing__ instance)
+variable["string"] = info is the same as variable.__set_attr__("string", info)
+
+
+variable = game_item(stuff) (this stuff is specific to this one instance)
+this creates an instance of the class
+based on a general schematic made as you defined the class
+with original info made as you assigned the variable
+
+
+only one can return from a function 
+
+get screen res, divide up by tile dimensions
+use no of tiles ^ > index for drawing - for loops
+
+
+each tile to get own rect
+instead of for loop getting all rects
+
+bonsai worlds

@@ -1,0 +1,4 @@
+username | password | email | attempts
+user1 | pass1 | maskedlauraiscute | 3
+user2 | pass2 | short | 3
+user3 | pass3 | reallyreallylongemail32322 | 3

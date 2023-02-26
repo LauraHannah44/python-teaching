@@ -1,0 +1,27 @@
+check adjacent tiles
+
+<2 dies
+2 or 3 lives 
+>3 dies 
+3 births 
+
+death conditions (pass, default state 0)
+
+live cell with 2 or 3 survives
+dead with 3 live becomes live
+all others die, and dead stay dead
+
+if 2 or 3, 1
+else 0
+
+
+clicking to populate blank space within range
+undo
+states
+
+important parts for save state
+board
+board size
+pause
+pan_offset
+zoom_multiplier

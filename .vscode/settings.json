@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\sarov\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.linting.pycodestyleArgs": ["--ignore=E221, E501, E265, E722, W391, W292, E116"]
+}
